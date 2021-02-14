@@ -31,6 +31,7 @@ int main(int argc, char *argv[])
     writer.String(title);
     writer.EndObject();
 
+    // Write to stdout
     puts(sb.GetString());
    
     return 0;
